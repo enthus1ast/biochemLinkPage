@@ -1,0 +1,8 @@
+<div class="hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 text-left"><a href="https://biochem2.com"><img src="assets/IBCII.jpg" alt="" class="m-4 img-fluid" ></a></div>
+      <div class="col-6 text-right"><img src="assets/gu.jpg" alt="" class="m-3 img-fluid"></div>
+    </div>
+  </div>
+</div>

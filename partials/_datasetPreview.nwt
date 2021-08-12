@@ -1,0 +1,12 @@
+<div class="col-12 col-sm-6 col-md-4 col-xl-3 shadow mt-4">
+  <a href="/dataset/{{dataset.name}}">
+    <h2>
+      {{dataset.name}}
+    </h2>
+    {% var img = dataset.image %}
+    {% if dataset.image == "" %}
+      {% img = "placeholder.png" %}
+    {%endif%}
+    <img class="img-fluid" src="/assets/{{img}}" alt="{{dataset.name}}">
+  </a>
+</div>

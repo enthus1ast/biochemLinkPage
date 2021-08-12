@@ -1,0 +1,10 @@
+{%extends partials/_master.nwt%}
+{%block title%}Datasets{%endblock%}
+{%block content%}
+
+<div class="row">
+  {% for dataset in datasets %}
+    {% importnwt partials/_datasetPreview.nwt %}
+  {% endfor %}
+</div>
+{%endblock%}

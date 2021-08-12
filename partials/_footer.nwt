@@ -1,0 +1,5 @@
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">© 2007-{{ currentYear() }} Institute of Biochemistry II - Goethe-Universität Frankfurt am Main</span>
+  </div>
+</footer>
